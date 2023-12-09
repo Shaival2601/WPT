@@ -5,7 +5,7 @@ export function Navigationbar() {
     return (
         <Navbar expand="lg" className="bg-body-tertiary">
             <Container>
-                <Navbar.Brand href="#home">MyApp</Navbar.Brand>
+                <Navbar.Brand href="#home"><b>PollPulse</b></Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="me-auto">
@@ -15,8 +15,14 @@ export function Navigationbar() {
                         <LinkContainer to="/about">
                             <Nav.Link>About Us</Nav.Link>
                         </LinkContainer>
-                        <LinkContainer to="/contact">
+                        {/* <LinkContainer to="/contact">
                             <Nav.Link>Contact Us</Nav.Link>
+                        </LinkContainer> */}
+                        {/* <LinkContainer to="/register">
+                            <Nav.Link>Register</Nav.Link>
+                        </LinkContainer> */}
+                        <LinkContainer to="/login">
+                            <Nav.Link>Login</Nav.Link>
                         </LinkContainer>
 
 
